@@ -26,12 +26,33 @@
   row-gap: 30px;
 }
 
+.ag-row-gap-20px{
+  row-gap: 20px;
+}
+
+.ag-border-radius-20px{
+  border-radius: 20px;
+}
+
+.ag-padding-y-20px{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /* content */
 
+
+/*********** HEADER **************/
 #sony-logo {
   width: 70px;
   height: 30px;
 }
+
+
+
+
+
+/*        SEZIONE 1           */
 
 #jumbotron-container{
   background-image: url("../img/jumbo-bg.png");
@@ -48,4 +69,14 @@
   padding-top: 115px;
 }
 
+
+
+
+
+/*         SEZIONE 2         */
+
+#jumbo-photos img{
+  width: 100%;
+  border-radius: 15px;
+}
 
