@@ -111,3 +111,17 @@
 /*             SEZIONE 3          */
 
 
+/*      SEZIONE 5        */
+
+#photo-gadgets img{
+  filter: opacity(50%);
+}
+
+#photo-gadgets img:hover{
+  filter: none;
+}
+
+#photo-gadgets #mini-ps5-ph{
+  filter: none;
+  border-bottom: 2px solid blue;
+}
