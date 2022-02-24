@@ -6,6 +6,14 @@
   width: 100%;
 }
 
+.ag-max-width{
+  max-width: 300px;
+}
+
+.ag-min-with{
+  min-width: 270px;
+}
+
 .ag-bg-black {
   background-color: black;
 }
@@ -74,6 +82,10 @@
 
 .ag-font-weight-600{
   font-weight: 600;
+}
+
+.ag-bg-ps-plus{
+  background-color: rgb(190 188 187);
 }
 
 /* content */
