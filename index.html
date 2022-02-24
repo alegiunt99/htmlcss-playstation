@@ -1,185 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Play-Station</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Play-Station</title>
 </head>
+
 <body>
-    <!-- Parte suoperiore con menu e logo Sony -->
-    <header>
-        <div class="container-fluid">
-            <div class="row ">
-                <div class="col-12 text-end ag-bg-black">
-                    <img id="sony-logo" src="img/sony_logo.svg" alt="">
-                </div>
-            </div>
+  <!-- Parte suoperiore con menu e logo Sony -->
+  <header>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-12 text-end ag-bg-black">
+          <img id="sony-logo" src="img/sony_logo.svg" alt="">
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                  <img src="img/play_logo.svg" alt="Logo Play-Station">
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/play_logo.svg" alt="Logo Play-Station">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#playstation-nav"
+          aria-controls="playstation-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="playstation-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="game-nav" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Giochi
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Giochi
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Hardwere
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Servizi
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Novità
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Fai Acquisti
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Supporto
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
+              <ul class="dropdown-menu" aria-labelledby="game-nav">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="hardwere-nav" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Hardwere
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="hardwere-nav">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="services-nav" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Servizi
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="services-nav">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="news-nav" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Novità
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="news-nav">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="buy-nav" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Fai Acquisti
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="buy-nav">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="support-nav" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Supporto
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="support-nav">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="my-ps-nav" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  My PlayStation
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="my-ps-nav">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-                <form class="d-flex">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            My PlayStation
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                          </ul>
-                        </li>  
-                  </ul>
-                  <button type="button" class="btn btn-primary rounded-pill" type="submit">Accedi</button>
-                  <a href="#">
-                    <i class="bi bi-search"></i>
-                  </a>
-                </form>
-              </div>
-            </div>
-          </nav>
-        
-
-    </header>
-
-    <!-- Parte centrale con 12 sezioni -->
-    <main>
-
-        <!-- Sezione 1: jumbotron -->
-        <section></section>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-primary rounded-pill" type="submit">Accedi</button>
+            <a href="#">
+              <i class="bi bi-search"></i>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
 
 
-        <!-- sezione 2: foto di jumbotron -->
-        <section></section>
+  </header>
+
+  <!-- Parte centrale con 12 sezioni -->
+  <main>
+
+    <!-- Sezione 1: jumbotron -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <h1>Rompi il cerchio</h1>
+            <p>Rialzati dopo ogni sconfitta e affronta una nuova
+              sfida con ogni rinascita in questo esplosivo thriller
+              fantascentifico, disponibile in esclusiva su PS5.</p>
+            <button type="button" class="btn btn-primary rounded-pill" type="submit">Acquista ora</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
 
 
-        <!-- sezione 3: Ecco la ps5 -->
-        <section></section>
+    <!-- sezione 2: foto di jumbotron -->
+    <section></section>
 
 
-        <!-- sezione 4: foto della ps5 -->
-        <section></section>
+    <!-- sezione 3: Ecco la ps5 -->
+    <section></section>
 
 
-        <!-- sezione 5: foto gadget ps5 -->
-        <section></section>
+    <!-- sezione 4: foto della ps5 -->
+    <section></section>
 
 
-        <!-- sezione 6: Gioco acquista ora -->
-        <section></section>
+    <!-- sezione 5: foto gadget ps5 -->
+    <section></section>
 
 
-        <!-- sezione 7: Nuove uscite -->
-        <section></section>
+    <!-- sezione 6: Gioco acquista ora -->
+    <section></section>
 
 
-        <!-- sezione 8: Esplora ps4 -->
-        <section></section>
+    <!-- sezione 7: Nuove uscite -->
+    <section></section>
 
 
-        <!-- sezione 9: ps plus -->
-        <section></section>
+    <!-- sezione 8: Esplora ps4 -->
+    <section></section>
 
 
-        <!-- sezione 10: ps store -->
-        <section></section>
+    <!-- sezione 9: ps plus -->
+    <section></section>
 
 
-        <!-- sezione 11: ps now -->
-        <section></section>
+    <!-- sezione 10: ps store -->
+    <section></section>
 
 
-        <!-- sezione 12: Social media contact -->
-        <section></section>
+    <!-- sezione 11: ps now -->
+    <section></section>
 
-    </main>
 
-    <!-- Parte finale con logo, link e copyright -->
-    <header>
+    <!-- sezione 12: Social media contact -->
+    <section></section>
 
-    </header>
+  </main>
 
-    
-    
+  <!-- Parte finale con logo, link e copyright -->
+  <header>
+
+  </header>
+
+
+
 </body>
+
 </html>
