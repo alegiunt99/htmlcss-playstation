@@ -18,6 +18,10 @@
   padding-top: 60px;
 }
 
+.ag-padding-t-48px{
+  padding-top: 48px;
+}
+
 .ag-padding-b-30px{
   padding-bottom: 30px;
 }
@@ -86,7 +90,8 @@
   background-position: center center;
 }
 
-#jumbotron img{
+#jumbotron img,
+#second-jumbotron img{
   width: 70%;
 }
 
@@ -113,6 +118,10 @@
 
 /*      SEZIONE 5        */
 
+#photo-gadgets{
+  padding-bottom: 50px;
+}
+
 #photo-gadgets img{
   filter: opacity(50%);
 }
@@ -124,4 +133,16 @@
 #photo-gadgets #mini-ps5-ph{
   filter: none;
   border-bottom: 2px solid blue;
+}
+
+
+
+/*            SEZIONE 6            */
+
+
+#second-jumbotron{
+  background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
