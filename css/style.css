@@ -10,10 +10,6 @@
   max-width: 300px;
 }
 
-.ag-min-with{
-  min-width: 270px;
-}
-
 .ag-bg-black {
   background-color: black;
 }
@@ -86,6 +82,10 @@
 
 .ag-bg-ps-plus{
   background-color: rgb(190 188 187);
+}
+
+.ag-bg-ps-now{
+  background-color: rgb(22 28 59);
 }
 
 /* content */
