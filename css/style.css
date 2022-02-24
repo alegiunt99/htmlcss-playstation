@@ -2,12 +2,20 @@
 
 /* utility */
 
+.ag-width-100{
+  width: 100%;
+}
+
 .ag-bg-black {
   background-color: black;
 }
 
 .ag-padding-t-300px{
   padding-top: 300px;
+}
+
+.ag-padding-t-60px{
+  padding-top: 60px;
 }
 
 .ag-padding-b-30px{
