@@ -6,9 +6,46 @@
   background-color: black;
 }
 
+.ag-padding-t-300px{
+  padding-top: 300px;
+}
+
+.ag-padding-b-30px{
+  padding-bottom: 30px;
+}
+
+.ag-font-size-18px{
+  font-size: 18px;
+}
+
+.ag-color-white{
+  color: white;
+}
+
+.ag-row-gap-30px{
+  row-gap: 30px;
+}
+
 /* content */
 
 #sony-logo {
   width: 70px;
   height: 30px;
 }
+
+#jumbotron-container{
+  background-image: url("../img/jumbo-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#jumbotron img{
+  width: 70%;
+}
+
+#jumbotron{
+  padding-top: 115px;
+}
+
+
