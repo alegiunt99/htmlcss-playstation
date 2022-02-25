@@ -1,9 +1,33 @@
 /* general */
 
+ul{
+  list-style-type: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover{
+  text-decoration: underline;
+  color: lightgray;
+}
+
+footer{
+  background-color: rgb(0 67 156);
+  color: white;
+  font-size: 13px;
+}
+
 /* utility */
 
 .ag-width-100{
   width: 100%;
+}
+
+.ag-width-150px{
+  width: 150px;
 }
 
 .ag-max-width{
@@ -170,4 +194,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+
+
+footer #logo-foot img{
+  width: 15%;
 }
