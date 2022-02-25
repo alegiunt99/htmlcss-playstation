@@ -46,7 +46,18 @@ footer{
 }
 
 .ag-btn-orange:hover{
-  background-color: coral;
+  background-color:coral;
+}
+
+.ag-bg-gain{
+  background-color: gainsboro;
+  border: none;
+  color: #0072ce;
+}
+
+.ag-bg-gain:hover{
+  background-color: rgb(151, 151, 151);
+  color: white;
 }
 
 .ag-padding-t-300px{
@@ -133,44 +144,6 @@ footer{
   color: rgba(0,0,0,.7);
 }
 
-
-.navbar-light .navbar-nav .nav-link:hover #games-content{
- display: block;
-}
-
-header #search-btn i{
-  font-size: 22px;
-}
-
-header #search-btn{
-  line-height: 47px;
-  padding-left: 13px;
-  color: gray;
-} 
-
-
-
-/****************** MAIN ************************/
-
-
-/*        SEZIONE 1           */
-
-#jumbotron-container{
-  background-image: url("../img/jumbo-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-#jumbotron img,
-#second-jumbotron img{
-  width: 70%;
-}
-
-#jumbotron{
-  padding-top: 115px;
-}
-
 #game-nav{
   position: relative;
   display: inline-block;
@@ -233,6 +206,46 @@ header #search-btn{
 
 
 
+.navbar-light .navbar-nav .nav-link:hover #games-content{
+ display: block;
+}
+
+header #search-btn i{
+  font-size: 22px;
+}
+
+header #search-btn{
+  line-height: 47px;
+  padding-left: 13px;
+  color: gray;
+} 
+
+
+
+/****************** MAIN ************************/
+
+
+/*        SEZIONE 1           */
+
+#jumbotron-container{
+  background-image: url("../img/jumbo-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#jumbotron img,
+#second-jumbotron img{
+  width: 70%;
+}
+
+#jumbotron{
+  padding-top: 115px;
+}
+
+
+
+
 /*         SEZIONE 2         */
 
 #jumbo-photos img{
@@ -240,11 +253,11 @@ header #search-btn{
   border-radius: 15px;
 }
 
-#jumbo-photos img:hover{
-    box-sizing: content-box;
-    border: 5px solid blue;
-    border-radius: 15px;
-    cursor: pointer;
+#jumbo-photos .col-6.col-sm-4.col-lg-2:hover{
+  cursor: pointer;
+  transform: translateY(-0.5rem);
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
 }
 
 #jumbo-photos #first-jumbo-photo{
