@@ -144,46 +144,19 @@ footer{
   color: rgba(0,0,0,.7);
 }
 
+.dropdown {
+  position: static;
+}
+
 #game-nav{
-  position: relative;
   display: inline-block;
 }
-
-#games-content{
-  left: -112%;
-}
-
-
-#hardwere-content{
-  left: -163%;
-}
-
-
-#services-content{
-  left: -339%;
-}
-
-
-#news-content{
-  left: -432%;
-}
-
-
-#shop-content{
-  left: -379%;
-}
-
-
-
-#support-content{
-  left: -543%;
-}
-
 
 
 .dropdown-content{
   display: none;
   position: absolute;
+  left: 0;
   background-color: #ffffff;
   box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);    z-index: 1;
   width: 100vw;
@@ -312,4 +285,14 @@ header #search-btn{
 
 footer #logo-foot img{
   width: 15%;
+}
+
+
+/*         SEZIONE 9            */
+
+@media screen and (max-width: 767px) {
+  #ps-plus-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
